@@ -25,7 +25,7 @@ The sample has three components: an agent, an MCP server that gives the agent it
 - **Products API** is a REST API that will provide product data. Usually this is a third-party system that sits outside Choreo Cloud, which can be exposed within the cloud as a managed API. In this sample, it is a mock API deployed in Integration.
 
 <ThemedImage
-  alt="A user chats with the Customer Support Agent in Agent Management. The agent reaches the Products MCP server through an MCP proxy, and the model's provider (Anthropic, OpenAI, Gemini or Mistral) through an LLM provider, both on the AI gateway. The Products MCP server reads the Products API. Both run in Integration."
+  alt="A user chats with the Customer Support Agent in Agent Management. The agent reaches the Products MCP server through an MCP proxy, and the LLM service (Anthropic, OpenAI, Gemini or Mistral) through an LLM provider, both on the AI gateway. The Products MCP server reads the Products API. Both run in Integration."
   sources={{
     light: useBaseUrl('/img/customer-support-agent-sample-light.svg'),
     dark: useBaseUrl('/img/customer-support-agent-sample-dark.svg'),
@@ -36,7 +36,7 @@ To deploy and try the sample:
 
 1. Ensure you have the following requirements:
    - A [Choreo Cloud organization](./sign-up.mdx).
-   - An LLM provider for Anthropic, OpenAI, Gemini or Mistral in Agent Management. If your organization doesn't have one, the console asks you to create it during the sample deploy. To create the provider, you need an API key from [Anthropic](https://platform.claude.com/docs/en/get-api-key), [OpenAI](https://developers.openai.com/api/docs/quickstart), [Google AI Studio](https://aistudio.google.com/docs/api-key) or [Mistral](https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key).
+   - An LLM provider for Anthropic, OpenAI, Gemini or Mistral in Agent Management. If your organization doesn't have one, the console asks you to create it during the sample deploy. To create the provider, you need an API key from [Anthropic](https://platform.claude.com/docs/en/get-api-key), [OpenAI](https://developers.openai.com/api/docs/quickstart), [Google AI Studio (Gemini)](https://aistudio.google.com/docs/api-key) or [Mistral](https://docs.mistral.ai/getting-started/quickstarts/studio/activate-and-generate-api-key).
 
 2. In the [Choreo Cloud console](https://console.cloud.choreolabs.com), create a project, or open one that's empty.
 
